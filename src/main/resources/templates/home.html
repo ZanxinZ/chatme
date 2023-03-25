@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat With Me</title>
+    <link rel="stylesheet" href="home.css">
+
+    <link rel="stylesheet" href="toast.css" />
+
+</head>
+<body id = "body" class = "body">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<div>
+    <h1 class="h1">Ask Me</h1>
+</div>
+
+
+<div id="chat-area" class= "chat-block" ></div>
+
+<div >
+    <button id="clear-button" class="newContext-btn" >新的对话</button>
+    <button id="copy-button" class="button">复制当前对话</button>
+</div>
+
+
+<div class="bottom-send-bar">
+    <canvas id="wait-answer-canvas" width="100px" height="100px"></canvas>
+    <div class="send-bar-main-part">
+        <textarea type="text" id="input-field" class="textarea" placeholder="输入问题"></textarea>
+        <button id="clear-send-button" title="清除发送区"  class="clearInputBtn">清除</button>
+        <button id="confirm-button" title="Ctrl + Enter 发送"   class="button">发送</button> <!-- modified -->
+    </div>
+
+</div>
+<script type="text/javascript" charset="UTF-8" src="home.js"></script>
+<script type="text/javascript" charset="UTF-8" src="toast.js"></script>
+
+</body>
+
+</html>

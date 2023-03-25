@@ -1,0 +1,140 @@
+.body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif, math;
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: #f5f5f5;
+            width: 98%;
+            margin: 0 auto;
+            padding: 0 10px;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            max-height: 70vh;
+            min-width: 200px;
+        }
+
+        .h1 {
+            text-align: center;
+        }
+
+        .label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .textarea {
+            width: 100%;
+            height: 100px; /* modified */
+            border: 2px solid #ddd;
+            border-radius: 10px; /* modified */
+            padding: 10px;
+            resize: none;
+            font-size: 16px;
+            font-family: sans-serif;
+            line-height: 1.5;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 30px; /* modified */
+            background-color: #4191e0;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px; /* modified */
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        .button[disabled] {
+            background-color: #cccccc;
+        }
+
+        .chat-block {
+            width: 100%;
+            max-width: 100%;
+            height: 85vh;
+            border: 2px solid #ddd;
+            border-radius: 10px; /* modified */
+            padding: 10px;
+            resize: none;
+            line-height: 1.5;
+            overflow-y: scroll;
+            overflow-x: disable;
+            background: white;
+            width: 98%
+        }
+
+
+        .bottom-send-bar {
+            position: fixed; bottom: 5px;
+            display: flex;
+            flex-direction: row;
+            width: 98%;
+        }
+
+        .send-bar-main-part {
+            display: flex;
+            flex-direction: row;
+            width: 98%;
+        }
+
+        .newContext-btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 30px; /* modified */
+            background-color: #EB5963;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px; /* modified */
+            cursor: pointer;
+            transition: all 0.8s ease-in-out;
+        }
+
+        .clearInputBtn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 30px; /* modified */
+            background-color: #5FAB48;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px; /* modified */
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        .button:hover {
+            background-color: #0062cc;
+        }
+
+        .clearInputBtn:hover {
+            background-color: #139418;
+        }
+        .newContext-btn:hover {
+            background-color: #d93245;
+        }
+
+
+
+        .clearInputBtn:active {
+                    transform: translateY(4px);
+                }
+        .newContext-btn:active {
+                            transform: translateY(4px);
+        }
+
+
+        .button:active {
+            transform: translateY(4px);
+        }
+
+
